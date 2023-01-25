@@ -1,11 +1,23 @@
-import Player from "./Components/Player";
+import * as React from "react";
+import { GlobalStyle } from "./styles/GlobalStyles";
+import Theme from "./styles/Theme";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Carousel from "./components/Carousel";
+import ChannelIcon from "../../assets/img/channel-circle.png";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <Player />
-    </>
+    <div className="App">
+      <GlobalStyle />
+      <Theme>
+       <Header>
+        <Navbar />
+       </Header>
+       <Hero />
+       <Carousel />
+      </Theme>
+    </div>
   );
 }
-
-export default App;

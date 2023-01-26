@@ -17,29 +17,35 @@ export const BenefitsTitle = styled.h2`
   padding: 40px 0 52px 0;
 `;
 
-export const BenefitsIcons = styled.div`
+export const BenefitsIcons = styled.ul`
   width: 100%;
   max-width: 820px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 36px;
-  
 `;
 
-export const BenefitsText = styled.div`
+export const BenefitsText = styled.ul`
   width: 100%;
   max-width: 900px;
   display: flex;
   justify-content: space-between;
-
 `;
 
-export const Icon = styled.img`
+export const Icon = styled.li`
+  list-style: none;
+`;
+
+export const IconImage = styled.img`
   width: 100px;
   text-align: center;
 `;
 
-export const Text = styled.p`
+export const Text = styled.li`
+  list-style: none;
+`;
+
+export const TextContent = styled.p`
   font-family: ${(props) => props.theme.fonts.primary};
   font-size: ${(props) => props.theme.fontSizes.sm};
   color: ${(props) => props.theme.colors.white};
@@ -48,5 +54,3 @@ export const Text = styled.p`
   width: 180px;
   line-height: 18.75px;
 `;
-
-export default BenefitsWrapper;

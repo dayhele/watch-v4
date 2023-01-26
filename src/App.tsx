@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Carousel from "./components/Carousel";
 
 import Benefits from "./components/Benefits";
+import ParamountBanner from "./components/ParamountBanner";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Hero />
         <Carousel />
         <Benefits />
+        <ParamountBanner />
       </Theme>
     </div>
   );

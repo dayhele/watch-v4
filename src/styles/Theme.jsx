@@ -8,6 +8,8 @@ const theme = {
     white: "#FAFAFA",
     lightGray: "rgba(122, 122, 122, 0.2);",
     darkGray: "#1E1E22",
+    blue: "#0065FF",
+    fadedBlue: "rgb(0 101 255 / 20%)"
     
   },
   fonts: {
@@ -15,8 +17,9 @@ const theme = {
     secondary: "Roboto Condensed, sans-serif"
   },
   fontSizes: {
-    lg: "64px",
-    md: "40px",
+    xl: "64px",
+    lg: "40px",
+    md: "24px",
     sm: "16px",
     xs: "14px",
     nano: "12px"

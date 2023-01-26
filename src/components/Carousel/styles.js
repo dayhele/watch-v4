@@ -9,10 +9,6 @@ export const CarouselWrapper = styled.div `
   padding: 103px 0;
 `
 
-// export const StyledSlider = styled.div`
-//   background: ${(props) => props.theme.colors.black};
-// `;
-
 export const CarouselTitle = styled.h2`
   font-family: ${(props) => props.theme.fonts.primary};
   font-size: ${(props) => props.theme.fontSizes.md};

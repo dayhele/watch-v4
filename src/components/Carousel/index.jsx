@@ -8,7 +8,7 @@ const Carousel = (props) => {
   const [sliderRef] = useKeenSlider({
     loop: true,
     mode: "free",
-    slides: { origin: "center", perView: 8.5, spacing: 10, loop: true, },
+    slides: { origin: "center", perView: 8.5 },
     range: {
       min: -5,
       max: 5

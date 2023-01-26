@@ -6,7 +6,9 @@ const theme = {
     orange: "#E96744",
     black: "#1E1E22",
     white: "#FAFAFA",
-    lightGray: "#7A7A7A"
+    lightGray: "rgba(122, 122, 122, 0.2);",
+    darkGray: "#1E1E22",
+    
   },
   fonts: {
     primary: "Roboto, sans-serif",

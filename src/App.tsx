@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Carousel from "./components/Carousel";
-import ChannelIcon from "./assets/img/channel-circle.png";
+
 import Benefits from "./components/Benefits";
 
 export default function App() {
@@ -17,26 +17,7 @@ export default function App() {
           <Navbar />
         </Header>
         <Hero />
-        <Carousel>
-          <div className="keen-slider__slide">
-            <img src={ChannelIcon} alt="" />
-          </div>
-          <div className="keen-slider__slide">
-            <img src={ChannelIcon} alt="" />
-          </div>
-          <div className="keen-slider__slide">
-            <img src={ChannelIcon} alt="" />
-          </div>
-          <div className="keen-slider__slide">
-            <img src={ChannelIcon} alt="" />
-          </div>
-          <div className="keen-slider__slide">
-            <img src={ChannelIcon} alt="" />
-          </div>
-          <div className="keen-slider__slide">
-            <img src={ChannelIcon} alt="" />
-          </div>
-        </Carousel>
+        <Carousel />
         <Benefits />
       </Theme>
     </div>

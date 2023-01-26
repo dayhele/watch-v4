@@ -9,6 +9,10 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    body {
+      background: #1E1E22;
+    }
+
 `;
 
 export const ButtonPrimary = styled.button`

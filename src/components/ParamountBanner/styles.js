@@ -10,7 +10,7 @@ export const BannersWrapper = styled.div`
 `;
 
 export const IconWrapper = styled.div`
-  width: 50%;
+  width: 70%;
   padding: 70px 188px;
   display: flex;
   justify-content: center;
@@ -43,17 +43,30 @@ export const ContentWrapper = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  width: 30%;
+  width: 50%;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: start;
+  padding: 66px;
 `;
 
-export const Text = styled.h3`
+export const Title = styled.h3`
   font-family: ${(props) => props.theme.fonts.primary};
   color: ${(props) => props.theme.colors.white};
   font-size: ${(props) => props.theme.fontSizes.md};
   font-weight: 700;
+  padding-bottom: 66px;
+`;
+
+export const Text = styled.p`
+  font-family: ${(props) => props.theme.fonts.primary};
+  color: ${(props) => props.theme.colors.white};
+  font-size: ${(props) => props.theme.fontSizes.xs};
+  line-height: 38.41px;
+  font-weight: 400;
+  text-align: justify;
 `;
 
 export const Dot = styled.button`

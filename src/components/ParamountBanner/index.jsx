@@ -33,7 +33,8 @@ const ParamountBanner = () => {
             </S.BannersWrapper>
             <S.ContentWrapper>
               <S.TextWrapper>
-                <S.Text>Exclusivos Paramount+</S.Text>
+                <S.Title>Exclusivos Paramount+</S.Title>
+                <S.Text>Paramount+ e Watch <br /> O que não falta é opção! </S.Text>
               </S.TextWrapper>
             </S.ContentWrapper>
           </div>

@@ -4,7 +4,7 @@ import Theme from "./styles/Theme";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import ChannelsLive from "./components/ChannelsLive";
+import ChannelsLiveCarousel from "./components/ChannelsLiveCarousel";
 import Benefits from "./components/Benefits";
 import PartnersCarousel from "./components/PartnersCarousel";
 
@@ -18,7 +18,7 @@ export default function App() {
           <Navbar />
         </Header>
         <Hero />
-        <ChannelsLive />
+        <ChannelsLiveCarousel />
         <Benefits />
         <PartnersCarousel />
       </Theme>

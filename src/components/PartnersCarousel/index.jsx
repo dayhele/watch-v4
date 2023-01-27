@@ -1,11 +1,11 @@
-import { React, useState } from "react";
+import { useState } from "react";
 import * as S from "./styles";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import ParamountIcon from "../../assets/img/paramount-logo.svg";
 import ParamountBannerImage from "../../assets/img/paramount-banner.svg";
 
-const PartnersCarousel = () => {
+const ParamountBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -23,20 +23,26 @@ const PartnersCarousel = () => {
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide number-slide1">
-            <S.BannersWrapper>
-              <S.IconWrapper>
-                <S.ParamountIcon src={ParamountIcon} />
-              </S.IconWrapper>
-              <S.BannerWrapper>
-                <S.ParamountBannerImage src={ParamountBannerImage} />
-              </S.BannerWrapper>
-            </S.BannersWrapper>
-            <S.ContentWrapper>
-              <S.TextWrapper>
-                <S.Title>Exclusivos Paramount+</S.Title>
-                <S.Text>Paramount+ e Watch <br /> O que não falta é opção! </S.Text>
-              </S.TextWrapper>
-            </S.ContentWrapper>
+            <S.ContentCarouselWrapper>
+              <S.BannersWrapper>
+                <S.IconWrapper>
+                  <S.ParamountIcon src={ParamountIcon} />
+                </S.IconWrapper>
+                <S.BannerWrapper>
+                  <S.ParamountBannerImage src={ParamountBannerImage} />
+                </S.BannerWrapper>
+              </S.BannersWrapper>
+              <S.ContentWrapper>
+                <S.CarouselsWrapper>
+                  <S.TextWrapper>
+                    <S.Title>Exclusivos Paramount+</S.Title>
+                    <S.Text>
+                      Paramount+ e Watch <br /> O que não falta é opção!{" "}
+                    </S.Text>
+                  </S.TextWrapper>
+                </S.CarouselsWrapper>
+              </S.ContentWrapper>
+            </S.ContentCarouselWrapper>
           </div>
           <div className="keen-slider__slide number-slide2">2</div>
           <div className="keen-slider__slide number-slide3">3</div>
@@ -66,4 +72,4 @@ const PartnersCarousel = () => {
   );
 };
 
-export default PartnersCarousel;
+export default ParamountBanner;

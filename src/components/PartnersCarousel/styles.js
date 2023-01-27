@@ -42,6 +42,17 @@ export const ContentWrapper = styled.div`
   );
 `;
 
+export const ContentCarouselWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const CarouselsWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+`;
+
 export const TextWrapper = styled.div`
   width: 30%;
   display: flex;

@@ -53,8 +53,13 @@ export const CarouselsWrapper = styled.div`
   width: 100%;
 `;
 
+export const CarouselInnerCards = styled.div `
+  width: 70%;
+  padding: 0 0 0 64px;
+`;
+
 export const TextWrapper = styled.div`
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   padding: 66px 0 0 103px;

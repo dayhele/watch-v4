@@ -4,8 +4,9 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import ParamountIcon from "../../assets/img/paramount-logo.svg";
 import ParamountBannerImage from "../../assets/img/paramount-banner.svg";
+import PartnersCards from "../PartnersCards";
 
-const ParamountBanner = () => {
+const PartnersCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -40,6 +41,9 @@ const ParamountBanner = () => {
                       Paramount+ e Watch <br /> O que não falta é opção!{" "}
                     </S.Text>
                   </S.TextWrapper>
+                  <S.CarouselInnerCards>
+                    <PartnersCards />
+                  </S.CarouselInnerCards>
                 </S.CarouselsWrapper>
               </S.ContentWrapper>
             </S.ContentCarouselWrapper>
@@ -72,4 +76,4 @@ const ParamountBanner = () => {
   );
 };
 
-export default ParamountBanner;
+export default PartnersCarousel;

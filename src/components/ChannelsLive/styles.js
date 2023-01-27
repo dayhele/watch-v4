@@ -11,7 +11,7 @@ export const CarouselWrapper = styled.div `
 
 export const CarouselTitle = styled.h2`
   font-family: ${(props) => props.theme.fonts.primary};
-  font-size: ${(props) => props.theme.fontSizes.md};
+  font-size: ${(props) => props.theme.fontSizes.lg};
   font-weight: 500;
   color: ${(props) => props.theme.colors.white};
   padding-bottom: 32px;

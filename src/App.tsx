@@ -4,10 +4,10 @@ import Theme from "./styles/Theme";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Carousel from "./components/Carousel";
-
+import ChannelsLive from "./components/ChannelsLive";
 import Benefits from "./components/Benefits";
-import ParamountBanner from "./components/ParamountBanner";
+import PartnersCarousel from "./components/PartnersCarousel";
+
 
 export default function App() {
   return (
@@ -18,9 +18,9 @@ export default function App() {
           <Navbar />
         </Header>
         <Hero />
-        <Carousel />
+        <ChannelsLive />
         <Benefits />
-        <ParamountBanner />
+        <PartnersCarousel />
       </Theme>
     </div>
   );

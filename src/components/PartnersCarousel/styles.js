@@ -43,13 +43,10 @@ export const ContentWrapper = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  width: 50%;
-  text-align: center;
+  width: 30%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: start;
-  padding: 66px;
+  padding: 66px 0 0 103px;
 `;
 
 export const Title = styled.h3`

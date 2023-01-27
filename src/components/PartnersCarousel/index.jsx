@@ -5,7 +5,7 @@ import "keen-slider/keen-slider.min.css";
 import ParamountIcon from "../../assets/img/paramount-logo.svg";
 import ParamountBannerImage from "../../assets/img/paramount-banner.svg";
 
-const ParamountBanner = () => {
+const PartnersCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -66,4 +66,4 @@ const ParamountBanner = () => {
   );
 };
 
-export default ParamountBanner;
+export default PartnersCarousel;

@@ -35,14 +35,15 @@ export const HeroContent = styled.div`
 
 export const HeroTitle = styled.h2`
   font-family: ${(props) => props.theme.fonts.secondary};
-  font-size: ${(props) => props.theme.fontSizes.lg};
+  font-size: ${(props) => props.theme.fontSizes.xl};
   color: ${(props) => props.theme.colors.white};
   padding-bottom: 12px;
 `;
 
 export const HeroSubtitle = styled.p`
   font-family: ${(props) => props.theme.fonts.primary};
-  font-size: ${(props) => props.theme.fontSizes.sm};
+  font-size: ${(props) => props.theme.fontSizes.md};
+  font-weight: 700;
   color: ${(props) => props.theme.colors.white};
   max-width: 535px;
   padding-bottom: 32px;

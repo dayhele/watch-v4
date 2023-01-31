@@ -15,6 +15,7 @@ export const CarouselTitle = styled.h2`
   font-weight: 500;
   color: ${(props) => props.theme.colors.white};
   padding-bottom: 32px;
+  text-align: center;
 
   @media (max-width: 320px) {
     font-size: ${(props) => props.theme.fontSizes.md};

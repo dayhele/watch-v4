@@ -12,7 +12,12 @@ const Carousel = (props) => {
     range: {
       min: -5,
       max: 5
-    }
+    },
+    breakpoints: {
+      '(max-width: 320px)': {
+        slides: { origin: "center", perView: 3.5 },
+      },
+    },
   });
 
   return (

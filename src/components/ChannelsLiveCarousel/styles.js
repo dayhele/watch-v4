@@ -15,9 +15,17 @@ export const CarouselTitle = styled.h2`
   font-weight: 500;
   color: ${(props) => props.theme.colors.white};
   padding-bottom: 32px;
+
+  @media (max-width: 320px) {
+    font-size: ${(props) => props.theme.fontSizes.md};
+  }
 `;
 
 export const CarouselIcon = styled.img `
   width: 152px;
   margin: 0 8px;
+
+  @media (max-width: 320px) {
+    width: 78px;
+  }
 `

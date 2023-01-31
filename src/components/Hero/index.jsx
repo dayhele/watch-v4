@@ -15,8 +15,8 @@ const Hero = (props) => {
         </S.HeroSubtitle>
       </S.HeroContent>
       <S.ButtonsWrapper>
-        <Button variant="primary">EXPLORAR CONTEÚDOS</Button>
-        <Button variant="secondary">ENCONTRE UM PROVEDOR</Button>
+        <Button variant="primary">Explorar conteúdos</Button>
+        <Button variant="secondary">Encontre um provedor</Button>
       </S.ButtonsWrapper>
     </S.HeroWrapper>
   );

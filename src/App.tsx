@@ -20,7 +20,7 @@ export default function App() {
         <Hero />
         <ChannelsLiveCarousel />
         <Benefits />
-        <PartnersCarousel />
+        <PartnersCarousel  />
       </Theme>
     </div>
   );

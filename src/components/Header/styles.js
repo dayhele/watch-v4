@@ -7,10 +7,17 @@ export const HeaderWrapper = styled.div`
   padding: 0 56px;
   display: flex;
   align-items: center;
+
+  @media (max-width: 320px) {
+    padding: 0 20px;
+  }
 `;
 
 export const Logo = styled.img`
   width: 133px;
   margin-right: 54px;
-`;
 
+  @media (max-width: 320px) {
+    width: 77px;
+  }
+`;

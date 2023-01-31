@@ -12,6 +12,10 @@ export const HeroBanner = styled.div`
   background-size: 100%;
   background-position: center top;
   height: 565px;
+
+  @media (max-width: 320px) {
+    height: 216px;
+  }
 `;
 
 export const HeroGradient = styled.div`
@@ -20,6 +24,11 @@ export const HeroGradient = styled.div`
   position: absolute;
   top: 446px;
   height: 256px;
+
+  @media (max-width: 320px) {
+    top: 166px;
+    height: 100px;
+  }
 `;
 
 export const HeroContent = styled.div`
@@ -38,6 +47,10 @@ export const HeroTitle = styled.h2`
   font-size: ${(props) => props.theme.fontSizes.xl};
   color: ${(props) => props.theme.colors.white};
   padding-bottom: 12px;
+
+  @media (max-width: 320px) {
+    font-size: ${(props) => props.theme.fontSizes.md};
+  }
 `;
 
 export const HeroSubtitle = styled.p`
@@ -47,6 +60,12 @@ export const HeroSubtitle = styled.p`
   color: ${(props) => props.theme.colors.white};
   max-width: 535px;
   padding-bottom: 32px;
+
+  @media (max-width: 320px) {
+    font-size: ${(props) => props.theme.fontSizes.sm};
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
 `;
 
 export const ButtonsWrapper = styled.div`
@@ -56,4 +75,10 @@ export const ButtonsWrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   width: 528px;
+
+  @media (max-width: 320px) {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
 `;

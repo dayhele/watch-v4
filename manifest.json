@@ -8,7 +8,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/",
+    "start_url": "https://watch-v4.vercel.app/",
     "background_color": "#fff",
     "display": "fullscreen",
     "theme_color": "#fff"

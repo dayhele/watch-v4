@@ -1,15 +1,8 @@
 {
-    "short_name": "React App",
-    "name": "React Progressive Web App",
-    "icons": [
-      {
-        "src": "/icon.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
-    "start_url": "https://watch-v4.vercel.app/",
-    "background_color": "#fff",
+    "name": "Watch V4 - React POC",
+    "short_name": "Watch V4",
+    "theme_color": "#1e1e22",
+    "background_color": "#1e1e22",
     "display": "fullscreen",
-    "theme_color": "#fff"
+    "start_url": "/"
   }

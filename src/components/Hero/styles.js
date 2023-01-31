@@ -13,16 +13,20 @@ export const HeroBanner = styled.div`
   background-position: center top;
   height: 565px;
 
-  @media (max-width: 320px) {
-    height: 186px;
-  }
-
   @media (max-width: 712px) {
     height: 382px;
   }
 
   @media (max-width: 586px) {
     height: 320px;
+  }
+
+  @media (max-width: 446px) {
+    height: 280px;
+  }
+
+  @media (max-width: 320px) {
+    height: 186px;
   }
 `;
 
@@ -66,11 +70,9 @@ export const HeroTitle = styled.h2`
   }
 
   @media (max-width: 765px) {
-    font-size: ${props => props.theme.fontSizes.lg};
+    font-size: ${(props) => props.theme.fontSizes.lg};
     font-weight: 700;
-
-}
-
+  }
 `;
 
 export const HeroSubtitle = styled.p`
@@ -88,10 +90,9 @@ export const HeroSubtitle = styled.p`
   }
 
   @media (max-width: 765px) {
-    font-size: ${props => props.theme.fontSizes.md};
+    font-size: ${(props) => props.theme.fontSizes.md};
     font-weight: 400;
-
-}
+  }
 `;
 
 export const ButtonsWrapper = styled.div`

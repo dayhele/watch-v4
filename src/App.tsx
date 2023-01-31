@@ -24,4 +24,11 @@ export default function App() {
       </Theme>
     </div>
   );
+  
 }
+
+if ((window.navigator as any).standalone === false) {
+  // esconder barra de pesquisa
+  window.scrollTo(0, 1);
+}
+

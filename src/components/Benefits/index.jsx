@@ -11,40 +11,30 @@ const Benefits = () => {
       <S.BenefitsWrapper>
         <S.BenefitsTitle>Vantagens em ter Watch!</S.BenefitsTitle>
         <S.BenefitsIcons>
-          <S.Icon>
+          <S.IconContent>
             <S.IconImage src={ContentIcon} />
-          </S.Icon>
-          <S.Icon>
-            <S.IconImage src={ScreensIcon} />
-          </S.Icon>
-          <S.Icon>
-            <S.IconImage src={RentIcon} />
-          </S.Icon>
-          <S.Icon>
-            <S.IconImage src={KidsIcon} />
-          </S.Icon>
-        </S.BenefitsIcons>
-        <S.BenefitsText>
-          <S.Text>
             <S.TextContent>
               Mais de 11.000 horas distribuídas entre séries, filmes, realities,
               desenhos animados e muito mais.
             </S.TextContent>
-          </S.Text>
-          <S.Text>
+          </S.IconContent>
+          <S.IconContent>
+            <S.IconImage src={ScreensIcon} />
             <S.TextContent>
               Possibilidade de assistir em 8 perfis e até 4 telas simultâneas.
             </S.TextContent>
-          </S.Text>
-          <S.Text>
+          </S.IconContent>
+          <S.IconContent>
+            <S.IconImage src={RentIcon} />
             <S.TextContent>
               Aluguel de filmes recém-lançados no cinema de forma prática.
             </S.TextContent>
-          </S.Text>
-          <S.Text>
+          </S.IconContent>
+          <S.IconContent>
+            <S.IconImage src={KidsIcon} />
             <S.TextContent>Perfil Kids com controle parental.</S.TextContent>
-          </S.Text>
-        </S.BenefitsText>
+          </S.IconContent>
+        </S.BenefitsIcons>
       </S.BenefitsWrapper>
     </>
   );

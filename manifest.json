@@ -1,0 +1,15 @@
+{
+    "short_name": "React App",
+    "name": "React Progressive Web App",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#fff",
+    "display": "fullscreen",
+    "theme_color": "#fff"
+  }

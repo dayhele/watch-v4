@@ -72,7 +72,7 @@ export const CarouselInnerCards = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 66px 0 0 103px;
@@ -93,6 +93,10 @@ export const Text = styled.p`
   line-height: 38.41px;
   font-weight: 400;
   text-align: justify;
+
+  @media (max-width: 712px) {
+    text-align: 
+  }
 `;
 
 export const Dot = styled.button`

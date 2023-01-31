@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ParamountBannerImage from "../../assets/img/paramount-banner.svg";
 
 export const BannersWrapper = styled.div`
   width: 100%;
@@ -11,23 +12,35 @@ export const BannersWrapper = styled.div`
 
 export const IconWrapper = styled.div`
   width: 70%;
-  padding: 70px 188px;
+  padding: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 900px) {
+    margin: 0 auto;
+  }
 `;
 
-export const BannerWrapper = styled.div`
+export const ParamountBanner = styled.div`
   width: 100%;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;
 
-export const ParamountBannerImage = styled.img`
+export const ParamountBannerImg = styled.img`
   width: 100%;
   height: 100%;
 `;
 
 export const ParamountIcon = styled.img`
   width: 228px;
+
+  @media (max-width: 556px) {
+    width: 132px;
+  }
 `;
 
 export const ContentWrapper = styled.div`
@@ -53,7 +66,7 @@ export const CarouselsWrapper = styled.div`
   width: 100%;
 `;
 
-export const CarouselInnerCards = styled.div `
+export const CarouselInnerCards = styled.div`
   width: 70%;
   padding: 0 0 0 64px;
 `;

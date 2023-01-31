@@ -33,6 +33,9 @@ export const ButtonPrimary = styled.button`
   @media (max-width: 320px) {
     font-size: ${(props) => props.theme.fontSizes.xs};
     text-transform: none;
+  }
+
+  @media (max-width: 675px) {
     margin-bottom: 14px;
   }
 

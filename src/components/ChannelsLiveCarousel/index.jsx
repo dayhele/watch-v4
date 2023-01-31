@@ -14,7 +14,19 @@ const Carousel = (props) => {
       max: 5
     },
     breakpoints: {
-      '(max-width: 320px)': {
+      '(max-width: 1340px)': {
+        slides: { origin: "center", perView: 7.5 },
+      },
+      '(max-width: 1165px)': {
+        slides: { origin: "center", perView: 6.5 },
+      },
+      '(max-width: 1016px)': {
+        slides: { origin: "center", perView: 5.5 },
+      },
+      '(max-width: 868px)': {
+        slides: { origin: "center", perView: 4.8 },
+      },
+      '(max-width: 520px)': {
         slides: { origin: "center", perView: 3.5 },
       },
     },

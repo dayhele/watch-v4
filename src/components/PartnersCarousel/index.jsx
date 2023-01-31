@@ -29,9 +29,9 @@ const PartnersCarousel = () => {
                 <S.IconWrapper>
                   <S.ParamountIcon src={ParamountIcon} />
                 </S.IconWrapper>
-                <S.BannerWrapper>
-                  <S.ParamountBannerImage src={ParamountBannerImage} />
-                </S.BannerWrapper>
+                <S.ParamountBanner>
+                  <S.ParamountBannerImg src={ParamountBannerImage} />
+                </S.ParamountBanner>
               </S.BannersWrapper>
               <S.ContentWrapper>
                 <S.CarouselsWrapper>

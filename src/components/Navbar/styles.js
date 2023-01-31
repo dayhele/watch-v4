@@ -19,7 +19,7 @@ export const NavbarList = styled.ul`
 export const ListItem = styled.li`
   padding: 0 42px;
 
-  @media (max-width: 320px) {
+  @media (max-width: 964px) {
     padding: 0;
     margin-right: 8px;
     display: ${props => props.active ? 'none' : 'block'};

@@ -14,7 +14,15 @@ export const HeroBanner = styled.div`
   height: 565px;
 
   @media (max-width: 320px) {
-    height: 216px;
+    height: 186px;
+  }
+
+  @media (max-width: 712px) {
+    height: 382px;
+  }
+
+  @media (max-width: 586px) {
+    height: 320px;
   }
 `;
 
@@ -28,6 +36,11 @@ export const HeroGradient = styled.div`
   @media (max-width: 320px) {
     top: 166px;
     height: 100px;
+  }
+
+  @media (max-width: 762px) {
+    top: 297px;
+    height: 178px;
   }
 `;
 
@@ -51,6 +64,13 @@ export const HeroTitle = styled.h2`
   @media (max-width: 320px) {
     font-size: ${(props) => props.theme.fontSizes.md};
   }
+
+  @media (max-width: 765px) {
+    font-size: ${props => props.theme.fontSizes.lg};
+    font-weight: 700;
+
+}
+
 `;
 
 export const HeroSubtitle = styled.p`
@@ -63,9 +83,15 @@ export const HeroSubtitle = styled.p`
 
   @media (max-width: 320px) {
     font-size: ${(props) => props.theme.fontSizes.sm};
-    font-weight: 400;
+    font-weight: 700;
     padding-bottom: 20px;
   }
+
+  @media (max-width: 765px) {
+    font-size: ${props => props.theme.fontSizes.md};
+    font-weight: 400;
+
+}
 `;
 
 export const ButtonsWrapper = styled.div`
@@ -76,7 +102,7 @@ export const ButtonsWrapper = styled.div`
   justify-content: space-between;
   width: 528px;
 
-  @media (max-width: 320px) {
+  @media (max-width: 675px) {
     align-items: center;
     flex-direction: column;
     width: 100%;

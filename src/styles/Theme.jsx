@@ -23,7 +23,8 @@ const theme = {
     md: "24px",
     sm: "16px",
     xs: "14px",
-    nano: "12px"
+    micro: "12px",
+    nano: "10px"
   }
 };
 

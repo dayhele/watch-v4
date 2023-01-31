@@ -8,8 +8,8 @@ export const HeaderWrapper = styled.div`
   display: flex;
   align-items: center;
 
-  @media (max-width: 320px) {
-    padding: 0 20px;
+  @media (max-width: 596px) {
+    padding: 0 0 0 24px;
   }
 `;
 
@@ -17,7 +17,8 @@ export const Logo = styled.img`
   width: 133px;
   margin-right: 54px;
 
-  @media (max-width: 320px) {
-    width: 77px;
+  @media (max-width: 596px) {
+    width: 82px;
+    margin-right: 32px;
   }
 `;

@@ -41,9 +41,7 @@ const PartnersCarousel = () => {
                       Paramount+ e Watch <br /> O que não falta é opção!{" "}
                     </S.Text>
                   </S.TextWrapper>
-                  <S.CarouselInnerCards>
-                    <PartnersCards />
-                  </S.CarouselInnerCards>
+                  <PartnersCards />
                 </S.CarouselsWrapper>
               </S.ContentWrapper>
             </S.ContentCarouselWrapper>

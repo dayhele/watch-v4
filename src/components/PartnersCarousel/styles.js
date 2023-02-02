@@ -73,9 +73,10 @@ export const CarouselInnerCards = styled.div`
 
 export const TextWrapper = styled.div`
   width: 100%;
+  max-width: 542px;
   display: flex;
   flex-direction: column;
-  padding: 66px 0 0 103px;
+  padding: 66px 0 0 103px; 
 `;
 
 export const Title = styled.h3`
@@ -95,7 +96,7 @@ export const Text = styled.p`
   text-align: justify;
 
   @media (max-width: 712px) {
-    text-align: 
+    text-align: ;
   }
 `;
 

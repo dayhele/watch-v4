@@ -8,7 +8,6 @@ import ChannelsLiveCarousel from "./components/ChannelsLiveCarousel";
 import Benefits from "./components/Benefits";
 import PartnersCarousel from "./components/PartnersCarousel";
 
-
 export default function App() {
   return (
     <div className="App">
@@ -20,15 +19,8 @@ export default function App() {
         <Hero />
         <ChannelsLiveCarousel />
         <Benefits />
-        <PartnersCarousel  />
+        <PartnersCarousel />
       </Theme>
     </div>
   );
-  
 }
-
-if ((window.navigator as any).standalone === false) {
-  // esconder barra de pesquisa
-  window.scrollTo(0, 1);
-}
-

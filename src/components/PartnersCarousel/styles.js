@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import ParamountBannerImage from "../../assets/img/paramount-banner.svg";
 
 export const BannersWrapper = styled.div`
   width: 100%;

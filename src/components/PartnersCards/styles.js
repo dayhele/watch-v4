@@ -4,10 +4,11 @@ export const CardsWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
+  overflow-x: hidden;
 `;
 
 export const Card = styled.div`
-  width: 208px;
+  min-width: 208px;
   height: 288px;
   background-color: ${props => props.theme.colors.gray};
   display: flex;

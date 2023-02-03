@@ -38,7 +38,7 @@ const PartnersCarousel = () => {
                   <S.TextWrapper>
                     <S.Title>Exclusivos Paramount+</S.Title>
                     <S.Text>
-                      Paramount+ e Watch <br /> O que não falta é opção!{" "}
+                      Paramount+ e Watch <br /> O que não falta é opção!
                     </S.Text>
                   </S.TextWrapper>
                   <PartnersCards />

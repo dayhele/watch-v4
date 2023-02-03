@@ -23,7 +23,6 @@ export const ButtonPrimary = styled.button`
   font-family: "Roboto", sans-serif;
   font-size: ${(props) => props.theme.fontSizes.sm};
   color: ${(props) => props.theme.colors.white};
-  text-transform: uppercase;
   border: none;
   border-radius: 24px;
   display: flex;
@@ -32,7 +31,6 @@ export const ButtonPrimary = styled.button`
 
   @media (max-width: 320px) {
     font-size: ${(props) => props.theme.fontSizes.xs};
-    text-transform: none;
   }
 
   @media (max-width: 675px) {
@@ -54,7 +52,6 @@ export const ButtonSecondary = styled.button`
   font-size: ${(props) => props.theme.fontSizes.sm};
   color: ${(props) => props.theme.colors.white};
   border: 1px solid ${(props) => props.theme.colors.white};
-  text-transform: uppercase;
   border-radius: 24px;
   display: flex;
   align-items: center;
@@ -62,7 +59,6 @@ export const ButtonSecondary = styled.button`
 
   @media (max-width: 320px) {
     font-size: ${(props) => props.theme.fontSizes.xs};
-    text-transform: none;
   }
 
   &:hover {

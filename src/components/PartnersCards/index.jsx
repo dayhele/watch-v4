@@ -17,6 +17,12 @@ const PartnersCards = () => {
         <S.Card>
           <h3>Lorem ipsum</h3>
         </S.Card>
+        <S.Card>
+          <h3>Lorem ipsum</h3>
+        </S.Card>
+        <S.Card>
+          <h3>Lorem ipsum</h3>
+        </S.Card>
       </S.CardsWrapper>
     </>
   );

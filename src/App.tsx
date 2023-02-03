@@ -7,6 +7,9 @@ import Hero from "./components/Hero";
 import ChannelsLiveCarousel from "./components/ChannelsLiveCarousel";
 import Benefits from "./components/Benefits";
 import PartnersCarousel from "./components/PartnersCarousel";
+import WatchContent from "./components/WatchContent";
+import WantHaveWatch from "./components/WantHaveWatch";
+import RegionProviders from "./components/RegionProviders";
 
 export default function App() {
   return (
@@ -20,6 +23,9 @@ export default function App() {
         <ChannelsLiveCarousel />
         <Benefits />
         <PartnersCarousel />
+        <WatchContent />
+        <WantHaveWatch />
+        <RegionProviders />
       </Theme>
     </div>
   );

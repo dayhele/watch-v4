@@ -57,6 +57,7 @@ export const ContentWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 12px;
   }
 `;
 
@@ -106,7 +107,7 @@ export const SearchCity = styled.input`
 
   @media (max-width: 548px) {
     width: 100%;
-    min-width: 300px;
+    min-width: 282px;
   }
 `;
 

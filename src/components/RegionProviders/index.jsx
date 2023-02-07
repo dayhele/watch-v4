@@ -8,13 +8,18 @@ const RegionProviders = () => {
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider({
     loop: true,
-    slides: { perView: 4, spacing: 2 },
-    initial: 0,
-    slideChanged(slider) {
-      setCurrentSlide(slider.track.details.rel);
-    },
-    created() {
-      setLoaded(true);
+    breakpoints: {
+      "(min-width: 400px)": {
+        slides: { perView: 2.5, spacing: 4 },
+      },
+      slides: { perView: 4, spacing: 2 },
+      initial: 0,
+      slideChanged(slider) {
+        setCurrentSlide(slider.track.details.rel);
+      },
+      created() {
+        setLoaded(true);
+      },
     },
   });
   return (

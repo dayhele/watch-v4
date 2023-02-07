@@ -10,6 +10,7 @@ import PartnersCarousel from "./components/PartnersCarousel";
 import WatchContent from "./components/WatchContent";
 import WantHaveWatch from "./components/WantHaveWatch";
 import RegionProviders from "./components/RegionProviders";
+import FAQ from "./components/FAQ";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <WatchContent />
         <WantHaveWatch />
         <RegionProviders />
+        <FAQ />
       </Theme>
     </div>
   );

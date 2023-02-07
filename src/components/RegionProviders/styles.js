@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const ProvidersWrapper = styled.div`
   width: 100%;
-  height: 285px;
-  display: none;
+  height: fit-content;
+  display: flex;
   align-items: center;
   flex-direction: column;
   background: ${(props) => props.theme.colors.lightGray};
-  padding: 30px auto 40px auto;
+  padding: 30px 42px 40px 42px;
+
+  @media (max-width: 956px) {
+    margin: 138px 0 0 0;
+  }
 `;
 
 export const ProvidersTitle = styled.h3`
@@ -19,7 +23,7 @@ export const ProvidersTitle = styled.h3`
 `;
 
 export const CarouselWrapper = styled.div`
-  width: 1000px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

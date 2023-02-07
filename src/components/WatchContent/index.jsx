@@ -7,30 +7,14 @@ import { useState } from "react";
 
 const WatchContent = () => {
   const [sliderRef] = useKeenSlider({
+    breakpoints: {
+      "(min-width: 400px)": {
+        slides: { perView: 4.5, spacing: 2 },
+      },
     loop: true,
     mode: "free",
-    slides: { origin: "center", perView: 4 },
-    range: {
-      min: -5,
-      max: 5,
+    slides: { spacing: 8, perView: 4.5 },
     },
-    // breakpoints: {
-    //     '(max-width: 1340px)': {
-    //       slides: { origin: "center", perView: 7.5 },
-    //     },
-    //     '(max-width: 1165px)': {
-    //       slides: { origin: "center", perView: 6.5 },
-    //     },
-    //     '(max-width: 1016px)': {
-    //       slides: { origin: "center", perView: 5.5 },
-    //     },
-    //     '(max-width: 868px)': {
-    //       slides: { origin: "center", perView: 4.8 },
-    //     },
-    //     '(max-width: 520px)': {
-    //       slides: { origin: "center", perView: 3.5 },
-    //     },
-    //   },
   });
   return (
     <>

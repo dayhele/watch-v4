@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const ProvidersWrapper = styled.p`
+export const ProvidersWrapper = styled.div`
   width: 100%;
   height: 285px;
-  display: flex;
+  display: none;
   align-items: center;
   flex-direction: column;
   background: ${(props) => props.theme.colors.lightGray};

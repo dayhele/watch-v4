@@ -46,12 +46,16 @@ export const ContentWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
-  height: 344px;
+  position: relative;
   background: linear-gradient(
     180deg,
     ${(props) => props.theme.colors.fadedBlue} 23.14%,
     rgba(0, 101, 255, 0) 88.23%
   );
+
+  @media (max-width: 912px) {
+    background: ${props => props.theme.colors.black};
+  }
 `;
 
 export const ContentCarouselWrapper = styled.div`
@@ -63,6 +67,10 @@ export const CarouselsWrapper = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+
+  @media (max-width: 912px) {
+    flex-direction: column;
+  }
 `;
 
 export const CarouselInnerCards = styled.div`
@@ -75,7 +83,7 @@ export const TextWrapper = styled.div`
   max-width: 542px;
   display: flex;
   flex-direction: column;
-  padding: 66px 0 0 103px; 
+  padding: 66px 0 0 103px;
 `;
 
 export const Title = styled.h3`
@@ -93,10 +101,6 @@ export const Text = styled.p`
   line-height: 38.41px;
   font-weight: 400;
   text-align: justify;
-
-  @media (max-width: 712px) {
-    text-align: ;
-  }
 `;
 
 export const Dot = styled.button`

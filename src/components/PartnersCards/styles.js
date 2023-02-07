@@ -5,6 +5,8 @@ export const CardsWrapper = styled.div`
   display: flex;
   flex-direction: row;
   overflow-x: hidden;
+  margin: 0 16px 12px 16px;
+  flex-wrap: nowrap;
 `;
 
 export const Card = styled.div`

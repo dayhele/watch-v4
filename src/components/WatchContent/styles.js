@@ -14,6 +14,12 @@ export const ContentWrapper = styled.div`
   height: 514px;
   position: relative;
   margin: 0 auto;
+
+  @media (max-width: 912px) {
+    flex-direction: column;
+    background-size: inherit;
+    height: auto;
+  }
 `;
 
 export const ContentText = styled.div`
@@ -22,6 +28,11 @@ export const ContentText = styled.div`
   display: flex;
   flex-direction: column;
   margin: 22px 28px 132px 112px;
+
+  @media (max-width: 912px) {
+    justify-content: center;
+    margin: 52px 0 28px 16px;
+  }
 `;
 
 export const Title = styled.h3`
@@ -44,11 +55,15 @@ export const CarouselWrapper = styled.div`
 `;
 
 export const CarouselCard = styled.div`
+  min-width: 50%;
   width: 208px;
   height: 208px;
   background-color: ${(props) => props.theme.colors.orange};
   border-radius: 8px;
   display: flex;
-  padding: 62px 34px;
-  margin: 24px;
+
+  @media (max-width: 912px) {
+    width: 73px;
+
+  }
 `;

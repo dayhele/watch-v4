@@ -15,14 +15,14 @@ const WantHaveWatch = () => {
             Gostou das possibilidades? <br /> Experimente ter acesso a todos os
             conteúdos da Watch. <br /> Entre em contato com um provedor!
           </S.Description>
-          <S.FieldTitle>Cidade</S.FieldTitle>
-          <form>
+          <S.SearchCityWrapper>
+            <S.FieldTitle>Cidade</S.FieldTitle>
             <S.SearchCity
               type="text"
               placeholder="Insira sua cidade"
               name="city"
             />
-          </form>
+          </S.SearchCityWrapper>
           <S.ButtonsWrapper>
             <ButtonPrimary>Pesquisar provedor</ButtonPrimary>
             <ButtonSecondary>Pesquisar provedor</ButtonSecondary>

@@ -12,6 +12,10 @@ export const BannerWrapper = styled.div`
   @media (max-width: 956px) {
     flex-direction: column;
   }
+
+  @media (max-width: 836px) {
+    padding: 0 72px;
+  }
 `;
 
 export const MapWrapper = styled.div`
@@ -24,11 +28,23 @@ export const MapWrapper = styled.div`
     display: flex;
     justify-content: center;
   }
+
+  @media (max-width: 912px) {
+    margin: 82px 62px 42px 0;
+  }
 `;
 
 export const MapImage = styled.img`
   max-width: 506px;
   height: fit-content;
+
+  @media (max-width: 982px) {
+    width: 320px;
+  }
+
+  @media (max-width: 836px) {
+    max-width: 256px;
+  }
 `;
 
 export const ContentWrapper = styled.div`
@@ -36,6 +52,12 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 82px;
+
+  @media (max-width: 956px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Title = styled.h3`
@@ -66,6 +88,12 @@ export const FieldTitle = styled.h4`
   margin-bottom: 12px;
 `;
 
+export const SearchCityWrapper = styled.form `
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
+
 export const SearchCity = styled.input`
   padding: 8px;
   gap: 10px;
@@ -75,6 +103,11 @@ export const SearchCity = styled.input`
   background: ${(props) => props.theme.colors.white};
   font-family: ${(props) => props.theme.fonts.primary};
   margin-bottom: 24px;
+
+  @media (max-width: 548px) {
+    width: 100%;
+    min-width: 300px;
+  }
 `;
 
 export const ButtonsWrapper = styled.div`
@@ -83,4 +116,9 @@ export const ButtonsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+
+  @media (max-width: 565px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;

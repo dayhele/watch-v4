@@ -4,5 +4,5 @@
     "theme_color": "#1e1e22",
     "background_color": "#1e1e22",
     "display": "fullscreen",
-    "start_url": "/"
+    "start_url": "https://watch-v4.vercel.app/"
   }

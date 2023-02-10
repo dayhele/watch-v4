@@ -24,6 +24,7 @@ export const ProvidersTitle = styled.h3`
 
 export const CarouselWrapper = styled.div`
   width: 100%;
+  max-width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -10,7 +10,7 @@ const RegionProviders = () => {
     loop: true,
     breakpoints: {
       "(min-width: 400px)": {
-        slides: { perView: 2.5, spacing: 4 },
+        slides: { perView: 4, spacing: 12 },
       },
       slides: { perView: 4, spacing: 2 },
       initial: 0,

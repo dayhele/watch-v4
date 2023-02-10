@@ -3,7 +3,6 @@ import * as S from "./styles";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import { ButtonPrimary } from "../../styles/GlobalStyles";
-import { useState } from "react";
 
 const WatchContent = () => {
   const [sliderRef] = useKeenSlider({

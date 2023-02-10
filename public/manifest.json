@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://watch-v4-test.vercel.app/",
+  "start_url": "/",
   "display": "fullscreen",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
@@ -28,7 +28,7 @@
   ],
   "dir": "auto",
   "lang": "pt",
-  "orientation": "natural",
+  "orientation": "any",
   "categories": [
     "entertainment"
   ]

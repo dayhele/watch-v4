@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Watch V4",
+  "name": "Watch V4 POC",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +18,18 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "start_url": "https://watch-v4-test.vercel.app/",
+  "display": "fullscreen",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display_override": [
+    "fullscreen",
+    "fullscreen"
+  ],
+  "dir": "auto",
+  "lang": "pt",
+  "orientation": "natural",
+  "categories": [
+    "entertainment"
+  ]
 }

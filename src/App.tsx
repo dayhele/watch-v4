@@ -12,6 +12,7 @@ import WatchContent from "./components/WatchContent";
 import WantHaveWatch from "./components/WantHaveWatch";
 import RegionProviders from "./components/RegionProviders";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
         <WantHaveWatch />
         <RegionProviders />
         <FAQ />
+        <Footer />
       </Theme>
     </div>
   );

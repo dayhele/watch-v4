@@ -12,7 +12,6 @@ export const ContentWrapper = styled.div`
   background-size: 100%;
   background-position: center top;
   height: 514px;
-  position: relative;
   margin: 0 auto;
 
   @media (max-width: 912px) {

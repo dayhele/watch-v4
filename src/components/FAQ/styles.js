@@ -30,10 +30,10 @@ export const AccordionWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 40px;
 
   .Collapsible__trigger {
     width: 100%;
+    min-width: fit-content;
     display: flex;
     align-items: center;
     cursor: pointer;
